@@ -1,4 +1,10 @@
 //creating an expense class with fields amount, category, date and description
+// What's happening here:
+
+// Serializable - allows saving objects to files (we'll use this later)
+// LocalDate - modern Java date class (better than old Date class)
+// Private fields with getters/setters - encapsulation (OOP principle)
+// toString() - for debugging and display
 
 import java.io.Serializable;
 import java.time.LocalDate;
