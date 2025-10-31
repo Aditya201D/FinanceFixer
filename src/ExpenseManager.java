@@ -39,7 +39,7 @@ public class ExpenseManager {
     }
 
     //UPDATE operation / update an expense
-    public void updateExpense(Expense newExpense, int index){
+    public void updateExpense(int index, Expense newExpense){
         if (index>=0 && index < expenses.size()){
             expenses.set(index, newExpense);
             saveExpenses();
